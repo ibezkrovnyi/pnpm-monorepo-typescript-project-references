@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5", // Or whatever you want
-    "module": "commonjs", // Or whatever you want
+    "target": "es5",
+    "module": "commonjs",
     "declaration": true,
     "declarationMap": true,
     "composite": true

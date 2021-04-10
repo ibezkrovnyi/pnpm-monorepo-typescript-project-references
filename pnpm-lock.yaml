@@ -16,6 +16,11 @@ importers:
       common: link:../common
     specifiers:
       common: workspace:*
+  packages/frontend-portal:
+    devDependencies:
+      frontend: link:../frontend
+    specifiers:
+      frontend: workspace:*
 lockfileVersion: 5.2
 packages:
   /typescript/4.2.4:

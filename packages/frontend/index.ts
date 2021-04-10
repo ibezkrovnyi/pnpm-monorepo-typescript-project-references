@@ -1,5 +1,7 @@
 import { add } from 'common'
 
-const result: number = add(42, 0);
+const result = add(41, -1);
 
 console.log('frontend', result);
+
+export const answer = result + 2;
