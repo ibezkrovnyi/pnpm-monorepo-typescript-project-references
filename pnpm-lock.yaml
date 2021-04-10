@@ -1,0 +1,27 @@
+importers:
+  .:
+    devDependencies:
+      typescript: 4.2.4
+    specifiers:
+      typescript: ^4.2.4
+  packages/backend:
+    devDependencies:
+      common: link:../common
+    specifiers:
+      common: workspace:*
+  packages/common:
+    specifiers: {}
+  packages/frontend:
+    devDependencies:
+      common: link:../common
+    specifiers:
+      common: workspace:*
+lockfileVersion: 5.2
+packages:
+  /typescript/4.2.4:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
