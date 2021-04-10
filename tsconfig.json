@@ -2,7 +2,7 @@
   "extends": "./tsconfig-base.json",
   "files": [],
   "references": [
-    { "path": "./packages/frontend" },
+    { "path": "./packages/frontend-portal" },
     { "path": "./packages/backend" }
   ]
 }
